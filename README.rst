@@ -1,20 +1,23 @@
+.. |ss| raw:: html
+
+    <strike>
+
+.. |se| raw:: html
+
+    </strike>
+
+
 ======
 PyMODM
 ======
 
-**Please don't use this fork on your projects.** 
+**Please don't use this fork on your projects.**
 
 **MongoDB has paused the development of PyMODM.** If there are any users who want
 to take over and maintain this project, or if you just have questions, please respond
-to `this forum post <https://developer.mongodb.com/community/forums/t/updates-on-pymodm/9363>`_.
+to [this post](https://developer.mongodb.com/community/forums/t/updates-on-pymodm/9363).
 
-.. image:: https://readthedocs.org/projects/pymodm/badge/?version=stable
-   :alt: Documentation
-   :target: http://pymodm.readthedocs.io/en/stable/?badge=stable
-
-.. image:: https://travis-ci.org/mongodb/pymodm.svg?branch=master
-   :alt: View build status
-   :target: https://travis-ci.org/mongodb/pymodm
+================
 
 A generic ODM around PyMongo_, the MongoDB Python driver. PyMODM works on Python
 2.7 as well as Python 3.3 and up. To learn more, you can browse the `official
@@ -30,9 +33,11 @@ Why PyMODM?
 PyMODM is a "core" ODM, meaning that it provides simple, extensible
 functionality that can be leveraged by other libraries to target platforms like
 Django. At the same time, PyMODM is powerful enough to be used for developing
-applications on its own. ~~Because MongoDB engineers are involved in developing
+applications on its own.
+
+|ss| Because MongoDB engineers are involved in developing
 and maintaining the project, PyMODM will also be quick to adopt new MongoDB
-features.~~
+features. |se|
 
 Support / Feedback
 ==================
@@ -80,7 +85,7 @@ Please include all of the following information when opening an issue:
 Security Vulnerabilities
 ------------------------
 
-If you’ve identified a security vulnerability in a driver or any other
+If you've identified a security vulnerability in a driver or any other
 MongoDB project, please report it according to the `instructions here
 <http://docs.mongodb.org/manual/tutorial/create-a-vulnerability-report>`_.
 
