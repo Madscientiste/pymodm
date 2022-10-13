@@ -15,7 +15,7 @@ PyMODM
 
 **MongoDB has paused the development of PyMODM.** If there are any users who want
 to take over and maintain this project, or if you just have questions, please respond
-to [this post](https://developer.mongodb.com/community/forums/t/updates-on-pymodm/9363).
+to `this forum post <https://developer.mongodb.com/community/forums/t/updates-on-pymodm/9363>`_.
 
 ================
 
