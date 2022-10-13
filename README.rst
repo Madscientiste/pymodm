@@ -2,6 +2,8 @@
 PyMODM
 ======
 
+**Please don't use this fork on your projects.** 
+
 **MongoDB has paused the development of PyMODM.** If there are any users who want
 to take over and maintain this project, or if you just have questions, please respond
 to `this forum post <https://developer.mongodb.com/community/forums/t/updates-on-pymodm/9363>`_.
@@ -28,9 +30,9 @@ Why PyMODM?
 PyMODM is a "core" ODM, meaning that it provides simple, extensible
 functionality that can be leveraged by other libraries to target platforms like
 Django. At the same time, PyMODM is powerful enough to be used for developing
-applications on its own. Because MongoDB engineers are involved in developing
+applications on its own. ~~Because MongoDB engineers are involved in developing
 and maintaining the project, PyMODM will also be quick to adopt new MongoDB
-features.
+features.~~
 
 Support / Feedback
 ==================
