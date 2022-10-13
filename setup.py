@@ -13,6 +13,7 @@
 # limitations under the License.
 
 import sys
+
 try:
     from setuptools import setup, find_packages
 except ImportError:
@@ -21,13 +22,12 @@ except ImportError:
     from setuptools import setup, find_packages
 
 VERSION = '0.5.0.dev0'
-
 LONG_DESCRIPTION = None
+
 try:
     LONG_DESCRIPTION = open('README.rst').read()
 except Exception:
     pass
-
 
 CLASSIFIERS = [
     'Development Status :: 3 - Alpha',
@@ -35,11 +35,6 @@ CLASSIFIERS = [
     'License :: OSI Approved :: Apache Software License',
     'Operating System :: OS Independent',
     'Programming Language :: Python',
-    "Programming Language :: Python :: 2.7",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.3",
-    "Programming Language :: Python :: 3.4",
-    "Programming Language :: Python :: 3.5",
     "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
@@ -47,8 +42,8 @@ CLASSIFIERS = [
     'Topic :: Software Development :: Libraries :: Python Modules',
 ]
 
-
 requires = ['pymongo>=3.4,<4.0']
+
 if sys.version_info[:2] == (2, 7):
     requires.append('ipaddress')
 
